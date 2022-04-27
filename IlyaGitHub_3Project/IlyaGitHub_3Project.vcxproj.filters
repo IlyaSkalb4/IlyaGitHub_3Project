@@ -4,10 +4,27 @@
     <Filter Include="kode1">
       <UniqueIdentifier>{21630125-eae6-4aa1-a668-93d82ca0da88}</UniqueIdentifier>
     </Filter>
+    <Filter Include="kode1\Lib1">
+      <UniqueIdentifier>{9170089b-225a-4527-97ec-1b15c65c283c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kode1\Source">
+      <UniqueIdentifier>{c57d92c4-7a9c-42b4-b26d-dfe239a2ad44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kode1\prog">
+      <UniqueIdentifier>{cd0a78b5-246f-498a-ac50-9a535a3b2f6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lib.h">
+      <Filter>kode1\Lib1</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
-      <Filter>kode1</Filter>
+      <Filter>kode1\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="prog.cpp">
+      <Filter>kode1\prog</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
