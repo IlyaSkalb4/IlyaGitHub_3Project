@@ -9,5 +9,13 @@
     <ClCompile Include="Source.cpp">
       <Filter>kode1</Filter>
     </ClCompile>
+    <ClCompile Include="Realization.cpp">
+      <Filter>kode1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="prototype.h">
+      <Filter>kode1</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
